@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: aqua;
+    margin: 30% 35%;
+}
+
+h2 {
+    animation-name: glow;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+@keyframes glow {
+    0% {color: aqua}
+    25% {color: red}
+    50% {color: green}
+    75% {color: yellow}
+    90% {color: white}
+    100% {color: aqua}
+}
+
+.clearButton {
+    background-color: salmon;
+    color: black;
+}
+
+.addButton {
+    background-color: salmon;
+    color: black;
+    border-radius: 25px;
+    border: none;
+}
+
+input {
+    background-color: blue;
+    color: gold;
+    border-radius: 5px;
+    border: none;
+}
+
+.task.completed {
+    text-decoration: line-through;
+}
